@@ -64,7 +64,7 @@ const Services = () => {
               data-aos="fade-up"
               className="text-3xl font-bold text-center sm:text-4xl"
             >
-              Why <span className="text-primary">Choose</span> Us
+              Why <span className="text-primary" style={{color:"lightgreen"}}>Choose</span> Us
             </h1>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -77,7 +77,7 @@ const Services = () => {
               >
                 {/* <div className="grid place-items-center">{skill.icon}</div> */}
                 <h1 className="text-3xl font-bold">{skill.name}</h1>
-                <h1 className="text-center text-4xl font-semibold text-primary">
+                <h1 className="text-center text-4xl font-semibold text-primary" style={{color:"lightgreen"}}>
                   ${skill.price}
                 </h1>
 
@@ -91,6 +91,7 @@ const Services = () => {
                 <a
                   href={skill.link}
                   className="primary-btn mt-4 group-hover:scale-105  duration-200"
+                  style={{background:"lightgreen",color:"black"}}
                 >
                   Learn more
                 </a>

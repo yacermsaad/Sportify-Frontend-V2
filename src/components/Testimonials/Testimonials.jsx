@@ -96,12 +96,12 @@ const Testimonials = () => {
                   <div className="flex flex-col items-center gap-4">
                     <div className="space-y-3">
                       <p className="text-xs text-gray-500">{data.text}</p>
-                      <h1 className="text-xl font-bold text-black/80 dark:text-primary">
+                      <h1 className="text-xl font-bold text-black/80 dark:text-primary" style={{color:"lightgreen"}}>
                         {data.name}
                       </h1>
                     </div>
                   </div>
-                  <p className="text-primary/20 text-9xl font-serif absolute top-0 right-0">
+                  <p className="text-primary/20 text-9xl font-serif absolute top-0 right-0" style={{color:"lightgreen"}}>
                     ,,
                   </p>
                 </div>

@@ -17,10 +17,10 @@ const About = () => {
             <div className="space-y-5 sm:p-16 pb-6">
               <div data-aos="zoom-in" className="flex items-center gap-4">
                 <div className="text-primary/70 text-7xl ">
-                  <h1 className="font-bold">01</h1>
+                  <h1 className="font-bold" style={{color:"lightgreen"}}>01</h1>
                 </div>
                 <div>
-                  <p className="text-primary">Global Fitness</p>
+                  <p className="text-primary" style={{color:"lightgreen"}}>Global Fitness</p>
                   <h1 className="text-2xl sm:text-4xl font-bold">About us</h1>
                 </div>
               </div>
@@ -32,7 +32,7 @@ const About = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
                 tempora.
               </p>
-              <button data-aos="fade-up" className="button-outline">
+              <button data-aos="fade-up" className="button-outline" style={{background:"lightgreen",color:"black", border:"none"}}>
                 Get Started
               </button>
             </div>
